@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_products",
+  "info": {
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product_heading": {
+      "type": "string",
+      "default": "Vintage",
+      "required": true
+    },
+    "product_desc": {
+      "type": "text",
+      "default": "the use of simple and limited elements to get the best effect or impression.",
+      "required": true
+    }
+  }
+}

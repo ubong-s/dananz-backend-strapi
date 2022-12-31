@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_stat",
+  "info": {
+    "displayName": "Stat",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "count": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

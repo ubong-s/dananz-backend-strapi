@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_services_contents",
+  "info": {
+    "displayName": "services",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "service_title": {
+      "type": "string"
+    },
+    "service_desc": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

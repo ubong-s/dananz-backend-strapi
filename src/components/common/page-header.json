@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_common_page_headers",
+  "info": {
+    "displayName": "Page Header",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 125
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_section_headers",
+  "info": {
+    "displayName": "section_header",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "half",
+        "grid"
+      ],
+      "default": "full",
+      "required": true
+    }
+  }
+}

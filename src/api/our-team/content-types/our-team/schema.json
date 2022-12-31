@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_teams",
+  "info": {
+    "singularName": "our-team",
+    "pluralName": "our-teams",
+    "displayName": "Teampage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "page_header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.page-header"
+    },
+    "experts_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.section-header"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
